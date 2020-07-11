@@ -1,0 +1,16 @@
+PODS:
+  - AvoidAPPCrashDefenseSDK (0.1.0)
+
+DEPENDENCIES:
+  - AvoidAPPCrashDefenseSDK (from `../`)
+
+EXTERNAL SOURCES:
+  AvoidAPPCrashDefenseSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AvoidAPPCrashDefenseSDK: eac0e1e6f801c2f40916e7108e632ce9ee312c89
+
+PODFILE CHECKSUM: 4a7c345d93f370151f018d2f50969fdcfdd1266c
+
+COCOAPODS: 1.8.4
