@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "NSObject+IMPDefender.h"
+#import "NSObject+InterceptingInvalidMethods.h"
 #import "NSObject+MethodSwizzling.h"
 #import "NSObject+SelectorDefender.h"
 

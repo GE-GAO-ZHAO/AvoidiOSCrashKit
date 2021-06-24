@@ -10,7 +10,6 @@
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* GGZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* GGZAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* GGZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* GGZViewController.m */; };
@@ -22,6 +21,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		70AA6BAD83D9695B3B8DB44C /* Pods_AvoidAPPCrashDefenseSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841BAAE890F7C39F78A4FB1B /* Pods_AvoidAPPCrashDefenseSDK_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		8320239E267DA01D00898791 /* GGZTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320239D267DA01D00898791 /* GGZTest.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		CF56C7FC1A6562E52B3A9B15 /* Pods_AvoidAPPCrashDefenseSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD92C7BD97958EAAF32E09A /* Pods_AvoidAPPCrashDefenseSDK_Example.framework */; };
 /* End PBXBuildFile section */
@@ -39,8 +39,8 @@
 /* Begin PBXFileReference section */
 		05A1972ECCB81F7EF34E1768 /* Pods-AvoidAPPCrashDefenseSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvoidAPPCrashDefenseSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-AvoidAPPCrashDefenseSDK_Example/Pods-AvoidAPPCrashDefenseSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		360171F1A32A52330C41D2DF /* Pods-AvoidAPPCrashDefenseSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvoidAPPCrashDefenseSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-AvoidAPPCrashDefenseSDK_Tests/Pods-AvoidAPPCrashDefenseSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		41220C9C37F3591B7974F1C8 /* AvoidAPPCrashDefenseSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AvoidAPPCrashDefenseSDK.podspec; path = ../AvoidAPPCrashDefenseSDK.podspec; sourceTree = "<group>"; };
-		442122170B033B0EA5336825 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		41220C9C37F3591B7974F1C8 /* AvoidAPPCrashDefenseSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AvoidAPPCrashDefenseSDK.podspec; path = ../AvoidAPPCrashDefenseSDK.podspec; sourceTree = "<group>"; };
+		442122170B033B0EA5336825 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4C6E3D436C11A5D5BA852585 /* Pods-AvoidAPPCrashDefenseSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvoidAPPCrashDefenseSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-AvoidAPPCrashDefenseSDK_Example/Pods-AvoidAPPCrashDefenseSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* AvoidAPPCrashDefenseSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvoidAPPCrashDefenseSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,9 +64,11 @@
 		6AD92C7BD97958EAAF32E09A /* Pods_AvoidAPPCrashDefenseSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvoidAPPCrashDefenseSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79240E7AEEFBF4C72E9E28FC /* Pods-AvoidAPPCrashDefenseSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvoidAPPCrashDefenseSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AvoidAPPCrashDefenseSDK_Tests/Pods-AvoidAPPCrashDefenseSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8320239C267DA01D00898791 /* GGZTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGZTest.h; sourceTree = "<group>"; };
+		8320239D267DA01D00898791 /* GGZTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGZTest.m; sourceTree = "<group>"; };
 		841BAAE890F7C39F78A4FB1B /* Pods_AvoidAPPCrashDefenseSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvoidAPPCrashDefenseSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F0875642E0E2552E9850DC83 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F0875642E0E2552E9850DC83 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,8 @@
 				6003F59C195388D20070C39A /* GGZAppDelegate.h */,
 				6003F59D195388D20070C39A /* GGZAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				8320239C267DA01D00898791 /* GGZTest.h */,
+				8320239D267DA01D00898791 /* GGZTest.m */,
 				6003F5A5195388D20070C39A /* GGZViewController.h */,
 				6003F5A6195388D20070C39A /* GGZViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -193,7 +197,6 @@
 				79240E7AEEFBF4C72E9E28FC /* Pods-AvoidAPPCrashDefenseSDK_Tests.debug.xcconfig */,
 				360171F1A32A52330C41D2DF /* Pods-AvoidAPPCrashDefenseSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,7 +284,6 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8320239E267DA01D00898791 /* GGZTest.m in Sources */,
 				6003F59E195388D20070C39A /* GGZAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* GGZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

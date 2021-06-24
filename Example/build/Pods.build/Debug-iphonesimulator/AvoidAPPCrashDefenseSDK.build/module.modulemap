@@ -1,0 +1,6 @@
+framework module AvoidAPPCrashDefenseSDK {
+  umbrella header "AvoidAPPCrashDefenseSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

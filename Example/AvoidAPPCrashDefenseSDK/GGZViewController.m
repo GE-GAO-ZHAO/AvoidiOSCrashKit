@@ -7,7 +7,7 @@
 //
 
 #import "GGZViewController.h"
-
+#import "GGZTest.h"
 @interface GGZViewController ()
 
 @end
@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    GGZTest *test = [[GGZTest alloc] init];
+    [test run];
 }
 
 - (void)didReceiveMemoryWarning

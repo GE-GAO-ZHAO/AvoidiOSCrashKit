@@ -1,6 +1,6 @@
 {
   "name": "AvoidAPPCrashDefenseSDK",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "avoid app crash sdk",
   "description": "1. 支持预防调用不到实例方案、类方法crash",
   "homepage": "https://github.com/GE-GAO-ZHAO/AvoidiOSCrashKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/GE-GAO-ZHAO/AvoidiOSCrashKit.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "10.0"

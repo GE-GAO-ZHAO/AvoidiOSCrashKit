@@ -22,7 +22,7 @@
         // 拦截 `+forwardingTargetForSelector:` 方法，替换自定义实现
         [NSObject talDefenderSwizzlingClassMethod:@selector(forwardingTargetForSelector:)
                                        withMethod:@selector(tal_forwardingTargetForSelector:)
-                                        withClass:[NSObject class]];
+                                        withClass:[NSObject class]]; 
     });
 }
 
