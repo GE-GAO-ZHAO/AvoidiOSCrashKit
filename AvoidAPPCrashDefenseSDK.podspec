@@ -30,7 +30,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'AvoidAPPCrashDefenseSDK/Classes/SELNOCallDefense/*'
+  s.source_files = 'AvoidAPPCrashDefenseSDK/Classes/**/*'
+  
   
   # s.resource_bundles = {
   #   'AvoidAPPCrashDefenseSDK' => ['AvoidAPPCrashDefenseSDK/Assets/*.png']

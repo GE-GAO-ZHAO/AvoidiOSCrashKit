@@ -17,6 +17,10 @@
 		6FAB11C939DCB2871C879E24DB44F19C /* Pods-AvoidAPPCrashDefenseSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A73542026F332A4A46B38C9BB7692211 /* Pods-AvoidAPPCrashDefenseSDK_Tests-dummy.m */; };
 		7264555DAC35CEBED6D8D9A5A4C75E3C /* Pods-AvoidAPPCrashDefenseSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DB046E7D679FFE649F64B341F264662 /* Pods-AvoidAPPCrashDefenseSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78D62B86878D708FBAA84E72B3748EDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		836EC65826AD5E83009C539C /* NSObject+ZombieDefense.h in Headers */ = {isa = PBXBuildFile; fileRef = 836EC65626AD5E83009C539C /* NSObject+ZombieDefense.h */; };
+		836EC65926AD5E83009C539C /* NSObject+ZombieDefense.m in Sources */ = {isa = PBXBuildFile; fileRef = 836EC65726AD5E83009C539C /* NSObject+ZombieDefense.m */; };
+		836EC65F26AD6211009C539C /* Zombie.h in Headers */ = {isa = PBXBuildFile; fileRef = 836EC65D26AD6211009C539C /* Zombie.h */; };
+		836EC66026AD6211009C539C /* Zombie.m in Sources */ = {isa = PBXBuildFile; fileRef = 836EC65E26AD6211009C539C /* Zombie.m */; };
 		B316DE8BFEE54777A67771FFA8975832 /* NSObject+InterceptingInvalidMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A1655CEFAFCF36DD72D94BC17809A0 /* NSObject+InterceptingInvalidMethods.m */; };
 		B6F9130070F3FAE85ED955A1E1337735 /* NSObject+MethodSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3D93561B956A4AC8AE13B329BA6DAF /* NSObject+MethodSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B790EEDD0F5AD006F4559079C07F9708 /* NSObject+InterceptingInvalidMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE3A225BB9747397B73993CF48CDE03 /* NSObject+InterceptingInvalidMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -50,11 +54,11 @@
 		2EC7777B581F66D36E4805F903741C93 /* Pods-AvoidAPPCrashDefenseSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AvoidAPPCrashDefenseSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		34A1655CEFAFCF36DD72D94BC17809A0 /* NSObject+InterceptingInvalidMethods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+InterceptingInvalidMethods.m"; path = "AvoidAPPCrashDefenseSDK/Classes/SELNOCallDefense/NSObject+InterceptingInvalidMethods.m"; sourceTree = "<group>"; };
 		37AC103D9C910F509C125F9AA1612ABA /* AvoidAPPCrashDefenseSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AvoidAPPCrashDefenseSDK-dummy.m"; sourceTree = "<group>"; };
-		424696594E93F8577673672453EFB260 /* Pods_AvoidAPPCrashDefenseSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AvoidAPPCrashDefenseSDK_Example.framework; path = "Pods-AvoidAPPCrashDefenseSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		424696594E93F8577673672453EFB260 /* Pods_AvoidAPPCrashDefenseSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvoidAPPCrashDefenseSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE3A225BB9747397B73993CF48CDE03 /* NSObject+InterceptingInvalidMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+InterceptingInvalidMethods.h"; path = "AvoidAPPCrashDefenseSDK/Classes/SELNOCallDefense/NSObject+InterceptingInvalidMethods.h"; sourceTree = "<group>"; };
 		521422867EDB825F2418E15304E59248 /* NSObject+IMPDefender.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+IMPDefender.m"; path = "AvoidAPPCrashDefenseSDK/Classes/SELNOCallDefense/NSObject+IMPDefender.m"; sourceTree = "<group>"; };
 		52EC64E3EA31CB4897AA10B99500673D /* AvoidAPPCrashDefenseSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AvoidAPPCrashDefenseSDK-Info.plist"; sourceTree = "<group>"; };
-		53F468C21A6E25D19971FCEAE7DBA0F2 /* AvoidAPPCrashDefenseSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AvoidAPPCrashDefenseSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		53F468C21A6E25D19971FCEAE7DBA0F2 /* AvoidAPPCrashDefenseSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AvoidAPPCrashDefenseSDK.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		5718EBE9280CE6035FCD0BF1F686B7A3 /* NSObject+IMPDefender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+IMPDefender.h"; path = "AvoidAPPCrashDefenseSDK/Classes/SELNOCallDefense/NSObject+IMPDefender.h"; sourceTree = "<group>"; };
 		593315C7F30224BE0052CFA3B6B078F6 /* Pods-AvoidAPPCrashDefenseSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvoidAPPCrashDefenseSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5FA17B65ECD340F1B86407E1157B084E /* Pods-AvoidAPPCrashDefenseSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvoidAPPCrashDefenseSDK_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -63,14 +67,18 @@
 		6AD0BB849044CBC4DD82FE076187C176 /* Pods-AvoidAPPCrashDefenseSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvoidAPPCrashDefenseSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		754386E4D902BB7BE4865391187C8B85 /* Pods-AvoidAPPCrashDefenseSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AvoidAPPCrashDefenseSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		7A0C4962B9B29EA3ACCF85FAAFF32C07 /* AvoidAPPCrashDefenseSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AvoidAPPCrashDefenseSDK.framework; path = AvoidAPPCrashDefenseSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		89748E8DEF80F8653A258994CD214BCA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7A0C4962B9B29EA3ACCF85FAAFF32C07 /* AvoidAPPCrashDefenseSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AvoidAPPCrashDefenseSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		836EC65626AD5E83009C539C /* NSObject+ZombieDefense.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZombieDefense.h"; sourceTree = "<group>"; };
+		836EC65726AD5E83009C539C /* NSObject+ZombieDefense.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZombieDefense.m"; sourceTree = "<group>"; };
+		836EC65D26AD6211009C539C /* Zombie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Zombie.h; sourceTree = "<group>"; };
+		836EC65E26AD6211009C539C /* Zombie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Zombie.m; sourceTree = "<group>"; };
+		89748E8DEF80F8653A258994CD214BCA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		90A8E40BD517A9194080322211FABE3D /* Pods-AvoidAPPCrashDefenseSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AvoidAPPCrashDefenseSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		99AF96BE87CA094F47E2C49045B632A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		99AF96BE87CA094F47E2C49045B632A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9C1772FE286ED9334FF232D179E4321A /* AvoidAPPCrashDefenseSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AvoidAPPCrashDefenseSDK.debug.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DB046E7D679FFE649F64B341F264662 /* Pods-AvoidAPPCrashDefenseSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AvoidAPPCrashDefenseSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A095794802F16A057EEFAEBD8831F088 /* Pods_AvoidAPPCrashDefenseSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AvoidAPPCrashDefenseSDK_Tests.framework; path = "Pods-AvoidAPPCrashDefenseSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A095794802F16A057EEFAEBD8831F088 /* Pods_AvoidAPPCrashDefenseSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvoidAPPCrashDefenseSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73542026F332A4A46B38C9BB7692211 /* Pods-AvoidAPPCrashDefenseSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AvoidAPPCrashDefenseSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		A8897DB2CF09FDD0A9A3D18A2DFE6ECD /* Pods-AvoidAPPCrashDefenseSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvoidAPPCrashDefenseSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B11D90F532A4AB4AA9F6BA6633809CB1 /* Pods-AvoidAPPCrashDefenseSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvoidAPPCrashDefenseSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -132,6 +140,17 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		836EC65526AD5E2F009C539C /* ZombieDefenseSDK */ = {
+			isa = PBXGroup;
+			children = (
+				836EC65626AD5E83009C539C /* NSObject+ZombieDefense.h */,
+				836EC65726AD5E83009C539C /* NSObject+ZombieDefense.m */,
+				836EC65D26AD6211009C539C /* Zombie.h */,
+				836EC65E26AD6211009C539C /* Zombie.m */,
+			);
+			path = ZombieDefenseSDK;
+			sourceTree = "<group>";
+		};
 		9BFD6C415AF3A8CB5A9F07AEE51DD07A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +180,7 @@
 		BB09EC3EC0B8736F8679B75523D2E1B9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
+				836EC65526AD5E2F009C539C /* ZombieDefenseSDK */,
 				FAC01526E22BCE3D17151B370BFC1FE8 /* AvoidAPPCrashDefenseSDK */,
 			);
 			name = "Development Pods";
@@ -262,8 +282,10 @@
 				01873EB8913CB48C2EA0E354FA172EDB /* AvoidAPPCrashDefenseSDK-umbrella.h in Headers */,
 				BD7F956D1F670339D099640A8E4E67F8 /* NSObject+IMPDefender.h in Headers */,
 				B790EEDD0F5AD006F4559079C07F9708 /* NSObject+InterceptingInvalidMethods.h in Headers */,
+				836EC65F26AD6211009C539C /* Zombie.h in Headers */,
 				B6F9130070F3FAE85ED955A1E1337735 /* NSObject+MethodSwizzling.h in Headers */,
 				E7D2130B11E5EDEB418AB27005F2FE0A /* NSObject+SelectorDefender.h in Headers */,
+				836EC65826AD5E83009C539C /* NSObject+ZombieDefense.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +422,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836EC66026AD6211009C539C /* Zombie.m in Sources */,
+				836EC65926AD5E83009C539C /* NSObject+ZombieDefense.m in Sources */,
 				45F9EB102BB06423FDFA78D0D9919492 /* AvoidAPPCrashDefenseSDK-dummy.m in Sources */,
 				C92616A8C04892856F08AFCC559DA119 /* NSObject+IMPDefender.m in Sources */,
 				B316DE8BFEE54777A67771FFA8975832 /* NSObject+InterceptingInvalidMethods.m in Sources */,
@@ -553,8 +577,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
